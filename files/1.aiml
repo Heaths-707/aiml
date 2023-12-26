@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <!-- insert your AIML categories here -->
+  <!-- File: hello.aiml -->
+  <category>
+    <pattern>HELLO</pattern>
+    <template>
+      <srai>SAY_HELLO</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>SAY_HELLO</pattern>
+    <template>Hello there!</template>
+  </category>
+</aiml>
